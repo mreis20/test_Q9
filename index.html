@@ -31,7 +31,7 @@
             <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
      </tr>
      <tr>
-            <td><input type="button" class="operator" name="sqrt" value="SQRT" onclick="calculator.display.math.sqrt(value)"></td>
+            <td><input type="button" class="operator" name="sqrt" value="SQRT" onclick="calculator.display.value += 'math.sqrt(calculator.display.value)"></td>
             <td><input type="button" class="operator" name="pow" value="^" onclick="calculator.display.value += 'math.pow(value)'"></td>
             <td><input type="button" class="operator" name="modul" value="%" onclick="calculator.display.value += 'math.modul(value)'"></td>
       </tr>
